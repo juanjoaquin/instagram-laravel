@@ -41,3 +41,11 @@ También está la opción de seguir y dejar de seguir, que en caso de que uno no
 ![7](https://imgur.com/1NR5apE.png)
 
 ![8](https://imgur.com/Rv6FuB4.png)
+
+6. ``Edición de perfil con foto de perfil``
+
+Existe la funcionalidad de cambiar la foto de perfil, y de username. En el caso de la foto de perfil estoy utilizando Dropzone para el manejo. Se debe cumplir con un máximo de peso de la imagen.
+
+![9](https://imgur.com/XfMo4Xz.png)
+
+![10](https://imgur.com/9nsjZHw.png)
