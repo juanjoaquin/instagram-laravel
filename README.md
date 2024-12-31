@@ -1,66 +1,43 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# dev
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+1. Clonar el repositorio
+2. Clonar el .env
+3. Una vez creado Laravel con Composer realizar las migraciones con php artisan migrate
+4. Ejecutar npm run dev para la copilación del frontend.
+5. Ejecutar php artisan serve para levantar el backend.
 
-## About Laravel
+# Funcionamiento
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+1. ``Autenticación con Laravel Breeze``
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![1](https://imgur.com/GE4H9JF.png)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+![2](https://imgur.com/sztPItr.png)
 
-## Learning Laravel
+2. ``Sección de Muro``
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+El componente del Muro se muestrá cuando seguis a personas, y estás realizan posteos, en caso de que no sea así mostrará un mensaje para que empieces a seguir a alguien.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+![3](https://imgur.com/id5fsIE.png)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+3. ``Crear posts``
 
-## Laravel Sponsors
+Una vez creado los posts, se muestrán en el perfil de uno al crearlos, además de tener un ID dinámico para visualizarlo.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+![4](https://imgur.com/HDwInSu.png)
 
-### Premium Partners
+![5](https://imgur.com/Ena2JHA.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+4. ``Funcionalidad de likes, y comentarios``
 
-## Contributing
+Cada post posee comentarios para añadir, además de que uno puede dar/quitar likes que se registran en la base de datos cumpliendo su funcionalidad, no son solamente elementos de diseño.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![6](https://imgur.com/FDicf1Z.png)
 
-## Code of Conduct
+5. ``Funcionalidad de seguir / dejar de seguir``
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+También está la opción de seguir y dejar de seguir, que en caso de que uno no siga más a un usuario distinto, no aparecerá la publicación en el muro.
 
-## Security Vulnerabilities
+![7](https://imgur.com/1NR5apE.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![8](https://imgur.com/Rv6FuB4.png)
